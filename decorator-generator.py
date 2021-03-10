@@ -176,7 +176,19 @@ display()
 
 
 
+l2=[]
+l1=[3,5,6,7,'a']
+def outer(func):
+    def inner(args):
+        [l2.append(i)for i in args if type(i)==int]
+        print(l2)
+        return func(l2)
+    return inner
 
+@outer
+def letit(args):
+    pass
+letit(l1)
 
 
 
