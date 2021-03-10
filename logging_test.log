@@ -1,0 +1,36 @@
+DEBUG:root:Add: 20 + 10 = 30
+DEBUG:root:Sub: 20 - 10 = 10
+DEBUG:root:Mul: 20 * 10 = 200
+DEBUG:root:Div: 20 / 10 = 2.0
+DEBUG:root:Add: 30 + 10 = 40
+DEBUG:root:Sub: 30 - 10 = 20
+DEBUG:root:Mul: 30 * 10 = 300
+DEBUG:root:Div: 30 / 10 = 3.0
+2021-03-07 22:47:33,430:DEBUG:Add: 30 + 10 = 40
+2021-03-07 22:47:33,430:DEBUG:Sub: 30 - 10 = 20
+2021-03-07 22:47:33,430:DEBUG:Mul: 30 * 10 = 300
+2021-03-07 22:47:33,430:DEBUG:Div: 30 / 10 = 3.0
+2021-03-07 22:53:56,786:INFO:Created Employee: John Smith - John.Smith@email.com
+2021-03-07 22:53:56,786:INFO:Created Employee: Corey Schafer - Corey.Schafer@email.com
+2021-03-07 22:53:56,786:INFO:Created Employee: Jane Doe - Jane.Doe@email.com
+2021-03-07 23:06:29,723:INFO:Created Employee: John Smith - John.Smith@email.com
+2021-03-07 23:06:29,723:INFO:Created Employee: Corey Schafer - Corey.Schafer@email.com
+2021-03-07 23:06:29,724:INFO:Created Employee: Jane Doe - Jane.Doe@email.com
+2021-03-07 23:07:17,997:INFO:Created Employee: John Smith - John.Smith@email.com
+2021-03-07 23:07:17,997:INFO:Created Employee: Corey Schafer - Corey.Schafer@email.com
+2021-03-07 23:07:17,997:INFO:Created Employee: Jane Doe - Jane.Doe@email.com
+INFO:__main__:Created Employee: John Smith - John.Smith@email.com
+INFO:__main__:Created Employee: Corey Schafer - Corey.Schafer@email.com
+INFO:__main__:Created Employee: John Smith - John.Smith@email.com
+INFO:__main__:Created Employee: Corey Schafer - Corey.Schafer@email.com
+INFO:__main__:Created Employee: John Smith - John.Smith@email.com
+INFO:__main__:Created Employee: Corey Schafer - Corey.Schafer@email.com
+DEBUG:__main__:Add: 10 + 0 = 10
+DEBUG:__main__:Sub: 10 - 0 = 10
+DEBUG:__main__:Mul: 10 * 0 = 0
+ERROR:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/raj.kumar/Desktop/pythonProject1/Mislenious/Logs--logging.py", line 140, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+DEBUG:__main__:Div: 10 / 0 = None
