@@ -61,13 +61,13 @@ add somthing in file .
 37.git push origin master  #it is now pushed to github
 
 
-  709  git config --global user.name "raj8524"
-  710  git init      It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
-  711  git add .     The git add command adds a change in the working directory to the staging area.
-  712  git commit -m "my_first_testing"
-  713  git remote add origin https://github.com/raj8524/flask_blog.git
-  715  git status
-  716  git push -u origin master
+   git config --global user.name "raj8524"
+   git init      It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
+   git add .     The git add command adds a change in the working directory to the staging area.
+   git commit -m "my_first_testing"
+   git remote add origin https://github.com/raj8524/flask_blog.git
+   git status
+   git push -u origin master
 
 
 
